@@ -11,6 +11,9 @@
     },
     {
       "project": "fs-fat"
+    },
+    {
+      "project": "fs-f2fs"
     }
   ]
 }
