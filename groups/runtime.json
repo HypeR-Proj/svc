@@ -1,0 +1,31 @@
+{
+  "SPDX-FileCopyrightText": "2026 roolrz",
+  "SPDX-License-Identifier": "Apache-2.0",
+  "version": 1,
+  "include": [
+    {
+      "project": "bootstrap-retire"
+    },
+    {
+      "project": "component-manager"
+    },
+    {
+      "project": "console-raw"
+    },
+    {
+      "project": "io-runtime"
+    },
+    {
+      "project": "journald"
+    },
+    {
+      "project": "session-manager"
+    },
+    {
+      "project": "system-startup"
+    },
+    {
+      "project": "terminal-service"
+    }
+  ]
+}

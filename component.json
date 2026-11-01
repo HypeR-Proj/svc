@@ -1,0 +1,25 @@
+{
+  "SPDX-FileCopyrightText": "2026 roolrz",
+  "SPDX-License-Identifier": "Apache-2.0",
+  "version": 1,
+  "name": "svc",
+  "kind": "group",
+  "include": [
+    "groups/filesystem.json",
+    "groups/runtime.json",
+    "groups/virtualization.json"
+  ],
+  "build": {
+    "type": "group"
+  },
+  "config": null,
+  "test_requires_rust": false,
+  "tests_need_workspace": false,
+  "tests": [
+    [
+      "python3",
+      "{system}/project.py",
+      "check-components"
+    ]
+  ]
+}
